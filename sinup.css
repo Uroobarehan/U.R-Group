@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+          background-image: url("images/foodwebsite.png");
+}
+.container {
+  margin: 250px auto;
+  padding: 20px;
+  background-color: #fff;
+           border: 10px solid yellow;
+   border-radius: 10%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  width: 500px;
+
+}
+    h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+input[type="password"] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+input[type="submit"] {
+  background-color: #00a0e9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+          margin-left:200px;
+          margin-right:200px;
+}
+input[type="submit"]:hover {
+  background-color: blue;
+}
